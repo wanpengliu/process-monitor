@@ -1,6 +1,6 @@
 package com.wanpeng.poc.process;
 
-import com.sun.istack.internal.NotNull;
+
 import com.wanpeng.poc.util.Util;
 import org.springframework.beans.factory.annotation.Value;
 
@@ -9,7 +9,6 @@ import java.io.IOException;
 public class BashInvoker {
 
     @Value("${process.name}")
-    @NotNull
     private String process_name;
 
     public String getProcess_name() {
