@@ -1,8 +1,6 @@
 package com.wanpeng.poc;
 
-import com.sun.istack.internal.NotNull;
 import com.wanpeng.poc.process.BashInvoker;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
